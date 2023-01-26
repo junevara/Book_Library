@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+th {
+    text-align: left;
+    height: 20px;
+}
+
+input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+table {
+    width: 300px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+button[type="submit"]{
+    margin: 10px 0px;
+}
+
+#addBook {
+    margin: 10px;
+}
+
+form{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.container {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#spacemaker {
+    height: 41px;
+}
+
+button[data] {
+    height: 20px;
+    margin: 10px 5px;
+    width: min-content;
+}
+
+input[type=text] {
+    width: 150px;
+}
+
+label {
+    width: 150px;
+    
+}
+
+#addBookForm input {
+    margin: 5px 0px;
+}
+
+#addBookForm > div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#addBookForm > div, #addBookForm > button {
+    margin: 10px;
+}
+
+
+
+
+
+
+#rmbuttoncontainer2 {
+    height: calc(100% - 41px);
+    display: grid;
+    
+}
+
+#rmbuttoncontainer2 > button {
+    position: relative;
+    top: 20px;
+
+}
+
